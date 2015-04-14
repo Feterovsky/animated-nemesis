@@ -20,7 +20,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:underlin
 <p>This is a paragraph.</p>
 
 
-<?php // deletefile.php  test git
+<?php // deletefile.php  test 
   if (!unlink('testfile2.new')) echo "Could not delete file";
   else echo "File 'testfile2.new' successfully deleted";
 ?>
